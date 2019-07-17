@@ -76,4 +76,9 @@ function parse_git_dirty {
 # Prompt
 export PS1="[\u@\h]\`parse_git_branch\` \\$: "
 
+# Load ASDF
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+
+# Pop neofetch
 neofetch
