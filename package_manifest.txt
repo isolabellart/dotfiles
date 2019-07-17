@@ -28,3 +28,15 @@ ConsoleKit2
 stow
 overpass-otf
 neofetch
+coreutils
+automake
+autoconf
+openssl
+libyaml
+readline
+libxslt
+libtool
+unixodbc
+unzip
+curl
+wget
