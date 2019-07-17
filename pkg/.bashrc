@@ -76,7 +76,7 @@ function parse_git_dirty {
 }
 
 # Prompt
-export PS1="[\u@\h]\`parse_git_branch\` \\$: "
+export PS1="[\u@\h]:\`parse_git_branch\` \W\\$: "
 
 # Load ASDF
 . $HOME/.asdf/asdf.sh
