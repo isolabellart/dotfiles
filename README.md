@@ -2,7 +2,7 @@ My Dotfiles
 =============
 
 This is my revised set of dotfiles. After switching from AwesomeWM to i3-gaps.
-Originally a port of (ibrahimbutt/direwolf-arch-rice)[https://github.com/ibrahimbutt/direwolf-arch-rice] to Void Linux.
+Originally a port of [ibrahimbutt/direwolf-arch-rice](https://github.com/ibrahimbutt/direwolf-arch-rice) to Void Linux.
 
 Installation
 ------------
