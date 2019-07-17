@@ -21,6 +21,8 @@ alias gm="git merge"
 alias gst="git status"
 alias gss="git status -s"
 alias glo="git log"
+alias gp="git push"
+alias gl="git pull"
 
 alias src="exec $SHELL"
 
