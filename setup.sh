@@ -23,6 +23,11 @@ pip3 install neovim --user
 nvim +PluginInstall +qall
 nvim +UpdateRemotePlugins +qall
 
+# Install ASDF
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+cd ~/.asdf
+git checkout "$(git describe --abbrev=0 --tags)"
+
 # System services
 sudo ln -s /etc/sv/alsa /var/service/
 sudo ln -s /etc/sv/cgmanager /var/service/
