@@ -20,3 +20,7 @@ pip3 install neovim --user
 nvim +PluginInstall +qall
 nvim +UpdateRemotePlugins +qall
 
+sudo ln -s /etc/sv/alsa /var/service/
+sudo ln -s /etc/sv/cgmanager /var/service/
+sudo ln -s /etc/sv/consolekit /var/service/
+sudo ln -s /etc/sv/dbus /var/service/
