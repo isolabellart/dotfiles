@@ -27,3 +27,4 @@ rxvt-unicode
 ConsoleKit2
 stow
 overpass-otf
+neofetch

@@ -23,3 +23,5 @@ alias src="exec $SHELL"
 
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
+
+neofetch
