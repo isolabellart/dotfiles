@@ -1,0 +1,111 @@
+[bar/bar]
+
+font-0 = "Overpass Mono:pixelsize=10;2.25"
+
+monitor = "eDP1"
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+fixed-center = true
+
+width = 100%
+height = 30
+
+background = #1d1f21
+foreground = #707880
+
+radius = 0.0
+
+# line-size = 1
+# line-color = #f00
+
+# border-size = 2
+# border-color = #00ff00
+padding-left = 1
+padding-right = 1
+module-margin = 0
+
+modules-left = i3 
+modules-center = date
+modules-right = pulseaudio battery
+
+[module/i3]
+strip-wsnumbers = true
+type = internal/i3
+format = <label-state> <label-mode>
+
+label-focused = %index%
+label-focused-foreground = #cc6666
+label-focused-background = #1d1f21
+label-focused-underline = #fba922
+label-focused-padding = 1
+
+label-unfocused = %index%
+label-unfocused-padding = 1
+
+label-visible = %index%
+label-visible-underline = #555555
+label-visible-padding = 1
+
+label-urgent = %index%
+label-urgent-foreground = #000000
+label-urgent-background = #bd2c40
+label-urgent-padding = 1
+
+[module/date]
+type = internal/date
+interval = 1.0
+date = %A, %d %B %I:%M %p
+
+[module/title]
+type = internal/xwindow
+# format-background = #f00
+format-foreground = #f0c674
+format-padding = 1
+label-maxlen = 50
+
+[module/battery]
+type = internal/battery
+full-at = 99
+battery = BAT0
+adapter = ADP1
+poll-interval = 5
+time-format = %H:%M
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+format-full = <ramp-capacity> <label-full>
+label-charging = Charging %percentage%%
+label-discharging = Discharging %percentage%%
+label-full = Fully charged
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+bar-capacity-width = 10
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-framerate = 750
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-3 = 
+animation-discharging-4 = 
+animation-discharging-framerate = 500
+
+[module/pulseaudio]
+type = internal/pulseaudio
+use-ui-max = false
+interval = 2
+format-volume = <ramp-volume> <label-volume>
+label-volume = %percentage%%
+format-volume-margin = 1
+label-muted = 🔇 muted
+label-muted-foreground = #666<Paste>
+ramp-volume-0 = 🔈
+ramp-volume-1 = 🔉
+ramp-volume-2 = 🔊
