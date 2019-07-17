@@ -3,6 +3,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Environment
+export EDITOR=nvim
+
 # aliases
 alias vim=nvim
 alias vi=nvim
