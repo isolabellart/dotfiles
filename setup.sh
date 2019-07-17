@@ -14,3 +14,9 @@ done < "$PKGMANIFEST"
 
 $STOW pkg -t $HOME --restow
 $STOW wallpaper -t $HOME/Pictures/Wal/ --restow
+
+pip3 install neovim --user
+
+nvim +PluginInstall +qall
+nvim +UpdateRemotePlugins +qall
+
