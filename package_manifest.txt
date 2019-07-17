@@ -31,12 +31,15 @@ neofetch
 coreutils
 automake
 autoconf
-openssl
 libyaml
 readline
+readline-devel
+libressl-devel
 libxslt
 libtool
 unixodbc
 unzip
 curl
 wget
+zlib
+zlib-devel
