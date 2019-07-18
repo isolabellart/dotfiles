@@ -14,6 +14,13 @@ do
   sudo xbps-install -y "$line"
 done < "$PKGMANIFEST"
 
+# Create User Directories
+mkdir -p $HOME/Code
+mkdir -p $HOME/Pictures/Wal
+mkdir -p $HOME/build
+mkdir -p $HOME/Documents
+mkdir -p $HOME/Downloads
+
 # Link dotfiles
 $STOW pkg -t $HOME --restow
 $STOW wallpaper -t $HOME/Pictures/Wal/ --restow
