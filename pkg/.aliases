@@ -1,0 +1,25 @@
+# NeoVim Shortcuts
+alias vim=nvim
+alias vi=nvim
+
+# Git Shortcuts
+alias g=git
+alias ga="git add"
+alias gc="git commit"
+alias gc!="git commit --amend"
+alias gcmsg="git commit -m"
+alias gd="git diff"
+alias gr="git reset"
+alias gm="git merge"
+alias gst="git status"
+alias gss="git status -s"
+alias glo="git log"
+alias gp="git push"
+alias gl="git pull"
+
+# Reload Terminal
+alias src="exec $SHELL"
+
+# ls
+alias ls='ls --color=auto'
+alias la='ls --color=auto -al'

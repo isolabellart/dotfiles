@@ -7,26 +7,7 @@
 export EDITOR=nvim
 
 # aliases
-alias vim=nvim
-alias vi=nvim
-
-alias g=git
-alias ga="git add"
-alias gc="git commit"
-alias gc!="git commit --amend"
-alias gcmsg="git commit -m"
-alias gd="git diff"
-alias gr="git reset"
-alias gm="git merge"
-alias gst="git status"
-alias gss="git status -s"
-alias glo="git log"
-alias gp="git push"
-alias gl="git pull"
-
-alias src="exec $SHELL"
-
-alias ls='ls --color=auto'
+. $HOME/.aliases
 
 # get current branch in git repo
 function parse_git_branch() {
