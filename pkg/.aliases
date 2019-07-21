@@ -18,7 +18,10 @@ alias gp="git push"
 alias gl="git pull"
 
 # Reload Terminal
-alias src="exec $SHELL"
+src() {
+  xrdb -merge $HOME/.Xresources
+  exec $SHELL
+}
 
 # ls
 alias ls='ls --color=auto'
