@@ -44,3 +44,5 @@ curl
 wget
 zlib
 zlib-devel
+dunst
+libnotify
