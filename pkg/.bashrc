@@ -4,7 +4,7 @@
 [[ $- != *i* ]] && return
 
 # Environment
-export EDITOR=nvim
+. $HOME/.profile
 
 # aliases
 . $HOME/.aliases
