@@ -6,6 +6,7 @@ alias vi=nvim
 alias g=git
 alias ga="git add"
 alias gc="git commit"
+alias gco="git checkout"
 alias gc!="git commit --amend"
 alias gcmsg="git commit -m"
 alias gd="git diff"
