@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 
-STOW=$(which stow)
 PKGMANIFEST=./package_manifest.txt
 
 # Ask for sudo
@@ -22,8 +21,8 @@ mkdir -p $HOME/Documents
 mkdir -p $HOME/Downloads
 
 # Link dotfiles
-$STOW pkg -t $HOME --restow
-$STOW wallpaper -t $HOME/Pictures/Wal/ --restow
+stow pkg -t $HOME --restow
+stow wallpaper -t $HOME/Pictures/Wal/ --restow
 
 # Neovim plugins
 pip3 install neovim --user
