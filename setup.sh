@@ -21,8 +21,9 @@ mkdir -p $HOME/Documents
 mkdir -p $HOME/Downloads
 
 # Link dotfiles
-stow pkg -t $HOME --restow
+stow dots -t $HOME --restow
 stow wallpaper -t $HOME/Pictures/Wal/ --restow
+sudo stow urxvt-ext -t /usr/lib/urxvt/perl/ --restow
 
 # Neovim plugins
 pip3 install neovim --user
