@@ -20,19 +20,23 @@ Whats The Script Does
 
 - Installs the following packages
   - i3-gaps
+  - i3lock
+  - ranger
   - neovim
   - dmenu
-  - polybar
+  - firefox
+  - git
+  - gitflow
   - pywal
+  - polybar
   - pulseaudio
   - rxvt-unicode
-  - git
   - stow
-  - base-devel
-  - feh
-  - firefox
-  - ranger
+  - overpass-otf
   - neofetch
-  - ASDF version manager
+  - curl
+  - wget
+  - dunst
+  - nerd-fonts
 - Installs my i3 rice
 - Creates a filestructure in `$HOME`
