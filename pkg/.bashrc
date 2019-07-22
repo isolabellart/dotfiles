@@ -9,6 +9,8 @@
 # aliases
 . $HOME/.aliases
 
+# Prompt
+
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
@@ -56,8 +58,9 @@ function parse_git_dirty {
 	fi
 }
 
-# Prompt
-export PS1="[\u@\h]:\`parse_git_branch\` \W \\$: "
+PS1="\[\e[0;33m\][\[\e[0;36m\]\u\[\e[0;33m\]]\[\e[0;33m\]@\[\e[0;33m\][\[\e[0;36m\]\H\[\e[0;33m\]]\[\e[0;36m\]\W\[\e[0m\]$(parse_git_branch)\[\e[33m\]$:\[\e[0m\]"
+
+# End Prompt
 
 # Load ASDF
 . $HOME/.asdf/asdf.sh
