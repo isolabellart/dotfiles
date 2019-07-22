@@ -30,7 +30,7 @@ Whats The Script Does
   - stow
   - base-devel
   - feh
-  - chromium
+  - firefox
   - ranger
   - neofetch
   - ASDF version manager
