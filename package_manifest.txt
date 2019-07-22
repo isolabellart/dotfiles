@@ -7,6 +7,7 @@ dmenu
 chromium
 base-devel
 git
+gitflow
 feh
 imagemagick
 python
