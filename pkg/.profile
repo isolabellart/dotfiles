@@ -1,11 +1,15 @@
 # set GOPATH
 export GOPATH="$HOME/Code/go"
+export GOBIN="$GOPATH/bin"
+export PATH="$PATH:$GOBIN"
 
 # set Rails environment
 export RAILS_ENV="development"
 
 # set EDITOR
 export EDITOR="nvim"
+
+# PATH overrides
 
 # Prompt
 
