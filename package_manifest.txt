@@ -47,3 +47,4 @@ zlib
 zlib-devel
 dunst
 libnotify
+nerd-fonts
