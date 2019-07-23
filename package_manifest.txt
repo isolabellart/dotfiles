@@ -52,5 +52,7 @@ libvirt-devel
 virtualbox-ose
 virtualbox-ose-dkms
 vagrant
+obs
+obs-devel
 nerd-fonts
 
