@@ -37,6 +37,9 @@ Whats The Script Does
   - curl
   - wget
   - dunst
+  - obs
+  - vagrant
+  - virtualbox
   - nerd-fonts
 - Installs my i3 rice
 - Creates a filestructure in `$HOME`
