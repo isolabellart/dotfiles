@@ -32,6 +32,7 @@ Whats The Script Does
   - pulseaudio
   - rxvt-unicode
   - stow
+  - gotop
   - overpass-otf
   - neofetch
   - curl
