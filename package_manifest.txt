@@ -47,4 +47,10 @@ zlib
 zlib-devel
 dunst
 libnotify
+libvirt
+libvirt-devel
+virtualbox-ose
+virtualbox-ose-dkms
+vagrant
 nerd-fonts
+
