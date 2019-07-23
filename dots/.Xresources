@@ -1,4 +1,4 @@
-*.font: xft:Overpass Mono:size=14
+*.font: xft:Hack Nerd Font Mono:size=12:style=Regular
 
 Xft.dpi:                        96
 Xft.antialias:                  1
