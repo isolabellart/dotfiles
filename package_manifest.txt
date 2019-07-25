@@ -56,4 +56,5 @@ vagrant
 obs
 obs-devel
 nerd-fonts
-
+NetworkManager
+networkmanager-dmenu
